@@ -28,7 +28,7 @@ List out the key features of your application.
 
 
 ## Installation & Getting started
-Detailed instructions on how to install, configure, and get the project running. For BE/FS projects-
+Detailed instructions on how to install, configure, and get the project running-
 Open terminal at a particular location on your system where you want to save your project and follow below commands:
 
 ```git clone https://github.com/akt0001c/ToDoRepo.git
