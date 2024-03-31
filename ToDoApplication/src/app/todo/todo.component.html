@@ -1,0 +1,13 @@
+<div class="task-div">
+    <h2>{{task.description}}</h2>
+    <p><strong> Status:</strong>
+        <span class="valid" *ngIf="task.isCompleted; else elseBlock">Completed</span>
+        <ng-template #elseBlock>
+            <span class="invalid" >Incomplete</span>
+        </ng-template>
+    </p>
+    <div id="btn-box">
+        <button (click)="updateStatus(task.id)">Update status</button>
+        <button (click)="removeTask(task.id)" >Remove Task</button>
+    </div>
+</div>

@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    border: 4px double green;
+    margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#nav-bar{
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#nav-bar>a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size:larger;
+}
+
+#nav-bar>a:hover{
+    background-color: whitesmoke;
+    color:gray;
+}

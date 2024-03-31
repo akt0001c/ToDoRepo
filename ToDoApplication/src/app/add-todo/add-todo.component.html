@@ -1,0 +1,9 @@
+<form [formGroup]="todoForm" (ngSubmit)="onSubmit()" >
+    <h1>Task details</h1>
+    <label for="taskId" >Id:</label>
+    <input id="taskId" type="number" formControlName="taskId" placeholder="Enter task id"/>
+
+    <label for="taskDetails" >Task Details:</label>
+    <textarea  id="taskDetails" placeholder="Enter task details" formControlName="taskName" ></textarea>>
+    <input type="submit" value="Add Task"/>
+</form>

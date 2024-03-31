@@ -1,0 +1,19 @@
+.valid{
+    background-color: green;
+}
+.invalid{
+    background-color: red;
+}
+
+.task-div{
+    border: 3px double gray;
+    padding: 8px;
+
+}
+
+#btn-box{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    padding:4px;
+}
